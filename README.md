@@ -1,25 +1,16 @@
-FCM Notification Plugin
-=================
+# KBS Plugin : BXSERVICE Freibier POS Server
 
-Description
------------
-This plugin is a server-side plugin required to use the [Freibier POS](https://github.com/bxservice/de.bxservice.freibierpos) app, the plugin takes care of the following:
+The fork from https://github.com/bxservice/de.bxservice.bxpos.fcm-server, and converted to be installed via **KBS ObjectData Tool** 
 
-* Create the necessary tables and views in iDempiere to support the Android POS.
-* Support the functionality to send push notifications from the server to the subscribed devices.
+Refer to https://wiki.idempiere.org/en/Plugin:_Freibier_Android_POS
 
-** If you want to use the push notification functionalities, you must create a Sysconfig in iDempiere named BXS_POS_APIKEY​ with the api key of the app (you   can get it following [these steps](https://developers.google.com/maps/documentation/android-api/start#creating_an_api_project)​).  **
+## How to install
 
-Features
---------
-- Maintainer: Diego Ruiz - BX Service GmbH
-- License: GPLv2
-- Language: JAVA
+1. Install **KBS ObjectData Tool** (refer to http://wiki.idempiere.org/en/Plugin:_ObjectDataTool)
 
-Documentation
--------------
-- You can find all the documentation [here](https://github.com/bxservice/bx-freibier-pos-documentation).
+2. Install the plugin via Apache Felix Web Console
 
-Questions or feedback
--------------
-- Feel free to ask and comment in the [group](https://groups.google.com/forum/#!forum/idempiere)
+## How to use
+
+
+## Fixing
